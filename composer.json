@@ -1,5 +1,5 @@
 {
-    "name": "markup/contentful",
+    "name": "voxmachina/contentful",
     "description": "A client library to integrate with the Contentful APIs (Content Delivery and Content Management) for PHP 5.4+.",
     "keywords": ["contentful", "cms"],
     "type": "library",
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": ">=4.0",
+		"guzzlehttp/guzzle": "3.8.1",
         "psr/cache-implementation": "1.0.0"
     },
     "require-dev": {
